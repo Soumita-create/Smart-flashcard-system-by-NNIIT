@@ -29,7 +29,7 @@ schemas.py — Pydantic schemas for request and response validation
 
 subject_classifier.py — logic to classify the subject of flashcards
 
-Install dependencies:
+# Install dependencies:
 
 ```bash
 pip install fastapi uvicorn sqlalchemy pydantic
