@@ -18,14 +18,6 @@ This is a simple backend API built with FastAPI for managing flashcards. It supp
 - SQLAlchemy
 - Pydantic
 
-Install dependencies:
-
-```bash
-pip install fastapi uvicorn sqlalchemy pydantic
-
-# Run the app with
-uvicorn main:app --reload
-
 # Project Structure
 main.py — FastAPI app with endpoints
 
@@ -36,3 +28,12 @@ models.py — SQLAlchemy models for flashcards
 schemas.py — Pydantic schemas for request and response validation
 
 subject_classifier.py — logic to classify the subject of flashcards
+
+Install dependencies:
+
+```bash
+pip install fastapi uvicorn sqlalchemy pydantic
+
+# Run the app with
+uvicorn main:app --reload
+
